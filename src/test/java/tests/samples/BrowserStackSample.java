@@ -4,7 +4,6 @@ package tests.samples;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -13,10 +12,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
-public class AndroidBrowserStackSample {
-
-    @Test
-    void searchTest() throws MalformedURLException, InterruptedException {
+public class BrowserStackSample {
+    public static void main(String[] args) throws MalformedURLException, InterruptedException {
 
         DesiredCapabilities caps = new DesiredCapabilities();
 
